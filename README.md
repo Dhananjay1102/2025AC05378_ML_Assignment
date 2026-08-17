@@ -94,11 +94,23 @@ project-folder/
 │   │-- comparison_table.csv
 ```
 
+## Screenshots
+
+**Live app on Streamlit Community Cloud** — model selection dropdown and
+predictions table on the uploaded test data.
+
+![Deployed Streamlit app showing model selection and predictions](images/screenshot_deployed_app.png)
+
+**Local development** — `app.py` in VS Code alongside the app running at
+`localhost:8501` during testing, before deployment.
+
+![Local Streamlit app running alongside the source code in VS Code](images/screenshot_local_dev.png)
+
 ## How to Run Locally
 
 ```bash
 pip install -r requirements.txt
-python model/train_models.py   # optional: re-trains models and regenerates test_data.csv
+python model/train_models.py
 streamlit run app.py
 ```
 
