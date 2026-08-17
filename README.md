@@ -38,7 +38,7 @@ best-performing approach.
 
 ## d. Streamlit App Link
 
-> **`https://github.com/Dhananjay1102/2025AC05378_ML_Assignment.git`**
+> **`https://2025ac05378mlassignment-3ncjuafpeksvwzgdfvbc5t.streamlit.app/`**
 
 ## e. Models Used
 
