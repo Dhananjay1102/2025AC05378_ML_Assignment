@@ -34,9 +34,13 @@ best-performing approach.
 
 ## c. GitHub Repository Link
 
-> **`<PASTE YOUR GITHUB REPO URL HERE AFTER PUSHING>`**
+> **`https://github.com/Dhananjay1102/2025AC05378_ML_Assignment.git`**
 
-## d. Models Used
+## d. Streamlit App Link
+
+> **`https://github.com/Dhananjay1102/2025AC05378_ML_Assignment.git`**
+
+## e. Models Used
 
 All 5 models were trained on an identical 80/20 stratified train/test split of
 the same dataset, with features standardized (`StandardScaler`, fit on the
@@ -98,21 +102,3 @@ python model/train_models.py   # optional: re-trains models and regenerates test
 streamlit run app.py
 ```
 
-## How to Deploy on Streamlit Community Cloud
-
-1. Push this folder to a public GitHub repository.
-2. Go to [streamlit.io/cloud](https://streamlit.io/cloud) and sign in with GitHub.
-3. Click **New app** → select this repo → branch `main` → main file `app.py`.
-4. Click **Deploy**.
-5. Once live, upload `test_data.csv` in the app to see predictions, metrics,
-   and the confusion matrix.
-
-## Streamlit App Features
-
-- **Dataset upload:** upload `test_data.csv` (or any CSV with the same 20
-  feature columns, optionally with a `price_range` column for scoring).
-- **Model selection dropdown:** switch between all 5 trained models.
-- **Evaluation metrics:** Accuracy, AUC, Precision, Recall, F1, MCC, live-computed
-  on whatever file is uploaded.
-- **Confusion matrix & classification report:** per-class breakdown for the
-  selected model, plus a side-by-side table of all 5 models.
