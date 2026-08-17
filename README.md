@@ -1,6 +1,6 @@
 # Mobile Price Range Classification — ML Assignment 2
 
-**BITS Pilani WILP — M.Tech (AIML/DSE) — Machine Learning**
+**BITS Pilani WILP — M.Tech (AIML) — Machine Learning**
 Student ID: 2025AC05378
 
 ---
